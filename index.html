@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<!-- Text copyright (C) 1995 Dave Morris and Jamie Thomson -->
+<!-- Illustrations copyright (C) 1995 Russ Nicholson -->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>The Fabled Lands</title>
+	<!-- Local CSS -->
+	<link href="css/fabled.css" rel="stylesheet">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<!-- JS functionality -->
+	<script src="js/characters.js"></script>
+	<script src="js/fabled.js"></script>
+</head>
+<body>
+	<div>
+		<p id="nomen" style="margin-bottom:5px"> Beholden! </p>
+		<div style="overflow: hidden; position:relative; margin-top:10px" id="personal">
+			<img src="assets/Liana.png" style="float:left" id="portrait">
+			<div id="desc-etc">
+				<p id="desc" style="overflow:hidden"> This is a description of Liana. This is a test to see what kind of word wrap is supported by this sort of thing. Looks like no word wrap at all. Hm. But my question now is if this text size makes sense with this size of image</p>
+				<div class="ellip hidden">
+					<p> > </p>
+				</div>
+			</div>
+			<div id="info-etc" class="hidden">
+				<p><span class="prof"></span> <br><br>
+				STAMINA:<span class="stam"></span> <br>
+				DEFENCE:<span class="def"></span> <br>
+				MONEY:<span class="shards"></span> shards <br>
+				POSSESSIONS:</p>				
+				<p><b><span class="poss"></span></b></p>
+			</div>
+		</div>
+		<div>
+			<table class="stats wide-6 black-out hidden">
+				<tr>
+					<td>
+						<p>CHARISMA:<span class="chri"></span></p>
+					</td>
+					<td>
+						<p>COMBAT:<span class="comb"></span></p>
+					</td>
+					<td>
+						<p>MAGIC:<span class="magi"></span></p>
+					</td>
+					<td>
+						<p>SANCTITY:<span class="sanc"></span></p>
+					</td>
+					<td>
+						<p>SCOUTING:<span class="scou"></span></p>
+					</td>
+					<td>
+						<p>THIEVERY:<span class="thie"></span></p>
+					</td>
+				</tr>
+			</table>
+			<table class="stats wide-3 black-out hidden">
+				<tr>
+					<td>
+						<p>CHARISMA:<span class="chri"></span></p>
+					</td>
+					<td>
+						<p>COMBAT:<span class="comb"></span></p>
+					</td>
+					<td>
+						<p>MAGIC:<span class="magi"></span></p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>SANCTITY:<span class="sanc"></span></p>
+					</td>
+					<td>
+						<p>SCOUTING:<span class="scou"></span></p>
+					</td>
+					<td>
+						<p>THIEVERY:<span class="thie"></span></p>
+					</td>
+				</tr>
+			</table>
+			<table class="stats wide-2 black-out hidden">
+				<tr>
+					<td>
+						<p>CHARISMA:<span class="chri"></span></p>
+					</td>
+					<td>
+						<p>COMBAT:<span class="comb"></span></p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>MAGIC:<span class="magi"></span></p>
+					</td>
+					<td>
+						<p>SANCTITY:<span class="sanc"></span></p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>SCOUTING:<span class="scou"></span></p>
+					</td>
+					<td>
+						<p>THIEVERY:<span class="thie"></span></p>
+					</td>
+				</tr>
+			</table>
+			<table class="stats wide-1 black-out hidden">
+				<tr>
+					<td>
+						<p>CHARISMA:<span class="chri"></span></p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>COMBAT:<span class="comb"></span></p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>MAGIC:<span class="magi"></span></p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>SANCTITY:<span class="sanc"></span></p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>SCOUTING:<span class="scou"></span></p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>THIEVERY:<span class="thie"></span></p>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	<div class="input-box">
+		<div class="input-el">
+			<p id="1" class="input-sel">1.Next</p>
+		</div>
+		<div class="input-el">
+			<p id="2" class="hidden">2.Prev</p>
+		</div>
+		<div class="input-el">
+			<p id="3">3.Info</p>
+		</div>
+		<div class="input-el last">
+			<p id="4">4.Select</p>
+		</div>
+		<div id="charaPrompt" class="hidden">
+			<p style="margin:5px">
+				Do you choose this character?
+				<span>Y</span>&nbsp;/&nbsp;<span>N</span>
+			</p>
+		</div>
+	</div>
+</body>
+</html>
